@@ -33,7 +33,7 @@ Create awesome 3D experiences with Vue.js 💚
 </div>
 
 <!--
-SLIDE 1
+SLOW DOWN
 -->
 
 ---
@@ -63,7 +63,7 @@ h1 {
 </style>
 
 <!--
-SLIDE 2
+SLOW DOWN
 -->
 
 ---
@@ -222,7 +222,7 @@ scene.add(cube);
 ```
 ```js {1|2|3|*}
 <TresMesh :position-z="5" >
-  <TresBoxGeometry :args="[1, 1,1]" />
+  <TresBoxGeometry :args="[1,1,1]" />
   <TresMeshBasicMaterial color="0x00ff00" />
 </TresMesh>
 ```
@@ -261,7 +261,7 @@ transition: fade-out
 
 
 <!--
-I'll let all this sliders in my twitter
+I'll let all this slides in my twitter: 
 -->
 
 <!--
@@ -275,13 +275,15 @@ transition: fade-out
 - Created by Alvaro saburido https://x.com/alvarosabu
 - VueJS + ThreeJS = TresJs 💚
 - I'm accountable for Cientos, tres-path-tracing (beta) and tres-rapier (physics)
-- More than 2.5K stars on GitHub (Ecosystem)
-- Average npm download of 51K/month (just the core)
+- More than 2.7K stars on GitHub (Ecosystem)
+- Average npm download of 100K/month
 - Used by 600+ developers
 - More than 590 users in Discord (https://discord.gg/MPdMCamK)
+- More than 2.149 commits
+- Around 827 PRs merged
 
 <!--
-I'll let all this sliders in my twitter
+I'll let all this sliders in my twitter: https://clever-sherbet-1fcd12.netlify.app/1
 -->
 ---
 transition: fade-out
@@ -289,7 +291,7 @@ transition: fade-out
 # Next steps
 
 <ul v-click>
-<li>Other libraries like R3f...</li>
+<li>Other libraries like R3f/Threevelte/angular-three...</li>
 <li>3D Models</li>
 <li>Lights/Shadow</li>
 <li>Physics</li>
@@ -314,6 +316,7 @@ Some important resources:
 - https://threejs-journey.com/
 - https://www.youtube.com/@AlvaroDevLabs
 - https://discord.gg/MPdMCamK
+- https://clever-sherbet-1fcd12.netlify.app/1
 
 <!--
 SLIDE 11
